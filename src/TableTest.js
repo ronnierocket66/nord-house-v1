@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTable } from 'react-table'
  
-function Table() {
+function TableTest() {
   const data = React.useMemo(
     () => [
       {
@@ -100,4 +100,4 @@ function Table() {
   )
 }
 
-export default Table
+export default TableTest
