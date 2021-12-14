@@ -249,6 +249,7 @@ export function Products(props) {
             </TableRow>
           ))}
         </TableHead>
+        
         <TableBody {...getTableBodyProps()}>
           {rows.map((row, idx) => {
             prepareRow(row)

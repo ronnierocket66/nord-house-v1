@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 //import './App.css';
-import TableTest from './TableTest.js'
 import tw from "twin.macro"
 import { Products } from './components/products';
+import AppTable from './tableComponent/AppTable';
 
 const AppContainer = tw.div`
 w-full
@@ -29,7 +29,8 @@ function App() {
      <Title>
        Apartments table
      </Title>
-      <Products />
+      {/* <Products /> */}
+      <AppTable />
     </AppContainer>
   );
 }
